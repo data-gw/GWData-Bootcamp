@@ -185,6 +185,87 @@ This course is meticulously designed to provide a solid foundation in programmin
     </details>
 
   - Date：[2023/12/27](2023/deep_learning/readme.md#2023-12-27) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=b2bbb9da-94dd-45df-94f2-b5bf9e095e60&from=3) | Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [online](https://slides.com/iphysresearch/gwda_coding_4_ann)
+  - Date：[2023/12/29](2023/deep_learning/readme.md#2023-12-29) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=9dd600c1-9183-443c-9fd5-ad7116440f47&from=3) | Slide: [PDF](https://pan.baidu.com/s/1nwaAbHIl1Ed7JATm3tGxlw?pwd=6h69) or [online](https://slides.com/iphysresearch/gwda_coding_4_cnn)
+
+- **Tech Talk**: _AI Revolution: From Concept to GPT Breakthroughs_ (Guest Lecture by [Minquan Gao](https://www.mqgao.com/))
+    <details>
+    <summary>Description</summary>
+  
+        1. Why AI Was Proposed:
+            - Exploring the historical context and reasoning behind the emergence of AI.
+            - Initial challenges and needs that AI aimed to address.
+        2. Earliest Form of AI and Solutions:
+            - Description of the first AI systems, such as simple computational machines.
+            - Early AI applications and the problems they solved.
+        3. Similarities between AI and Physics Methodologies:
+            - Comparing the theoretical frameworks and approaches used in both fields.
+            - Identifying shared principles and methods.
+        4. From Symbolic Systems to Machine Learning:
+            - Evolution of AI from early symbolic and numeric systems.
+            - The transition to probabilistic and statistical methods.
+            - The development of machine learning technologies.
+        5. Principles of Deep Learning:
+            - Understanding the core concepts behind deep learning.
+            - The architecture of neural networks and their functionality.
+        6. Breakthroughs Brought by Deep Learning:
+            - Identifying key advancements and innovations due to deep learning.
+            - Impact of deep learning on various AI applications.
+        7. Typical Deep Learning Scenarios:
+            - Examples of deep learning applications in real-world scenarios.
+            - Discussion of its effectiveness and adaptability.
+        8. Pre-trained Models and Large Models:
+            - The role and significance of pre-trained models in AI.
+            - Characteristics and implications of large-scale AI models.
+        9. Principles of GPT:
+            - Explaining the foundational concepts of Generative Pre-trained Transformers.
+            - Discussing its applications and impact.
+        10. Breakthroughs in AIGC (AI Generated Content):
+            - Overview of advancements in AI-generated content.
+            - Examples and implications of these breakthroughs.
+        11. Current Challenges in AI:
+            - Discussing ethical, technical, and practical problems in AI.
+            - Examination of ongoing debates and concerns in the field.
+        12. Frontiers of AI Research:
+            - Exploring cutting-edge research and future directions in AI.
+            - Innovations and potential developments on the horizon.
+
+    </details>
+
+  - Date：[2023/12/31]() | Video [recording]()
+
+
+## Kaggle Data Science Competition (Hackathon)
+
+<div class="sl-block is-focused" data-block-type="image" data-name="image-76f7c0" style="width: 702.595px; height: 116.909px; left: 103.5px; top: 243.091px; min-width: 1px; min-height: 1px;" data-origin-id="41987a0e08687243a9014a91eff94fb7"><div class="sl-block-content" style="z-index: 17;"><img class="" data-natural-width="1232" data-natural-height="205" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/uploads/1094055/images/11024519/pasted-from-clipboard.png"></div></div>
+
+> Homepage: [https://www.kaggle.com/competitions/2023-gwdata-bootcamp/](https://www.kaggle.com/competitions/2023-gwdata-bootcamp/)
+
+### Overview
+
+- Welcome to the final challenge of the [Gravitational Wave Data Exploration: A Practical Training in Programming and Analysis (2023)](https://github.com/iphysresearch/GWData-Bootcamp/) - "**Can you find the GW signals?**" Kaggle Data Science Competition (Hackathon)! 
+- This competition is designed to apply the knowledge and skills you've learned throughout the course, focusing on gravitational wave data analysis and research.
+
+### Objective
+
+- The objective of this competition is to develop a model that can accurately identify gravitational wave signals from the provided dataset. 
+- You will be given a dataset containing a mix of noise and gravitational wave signals. Your task is to develop a model that can accurately distinguish between the two.
+
+### Timeline
+
+- This competition will start at 10:00 PM (Beijing Time) on December 29, 2023, and end at 11:59 PM (Beijing Time) on January 5, 2024.
+- Please make sure to submit your solutions before the deadline.
+
+- Good luck and may the best team win!
+
+### Files
+
+- [data_prep_bbh.py](2023/deep_learning/baseline/data_prep_bbh.py) - script for data generation (credit: [Dr. Hunter Gabbard](https://github.com/hagabbar/cnn_matchfiltering/))
+- [utils.py](2023/deep_learning/baseline/utils.py) - supplemental script containing some useful functions
+- [main.py](2023/deep_learning/baseline/main.py) - main script for training / evaluation / submission
+- [test.npy](https://www.kaggle.com/competitions/2023-gwdata-bootcamp/data?select=test.npy) - test data for submission (You can load the test data in the [Kaggle notebook](https://www.kaggle.com/code/herbwang/baseline-kaggle))
+
+> Anyway, just check the [baseline notebook](2023/deep_learning/baseline/baseline_sugon.ipynb) for everything!
+
 
 ## Getting Started
 
@@ -255,7 +336,7 @@ Welcome to the course project! To get started with your programming assignments,
 - Happy Coding! 🚀👩‍💻👨
 
 ## Staff
-This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers ([Junjie Zhao](https://orcid.org/0000-0002-9233-3683)) and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
+This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers ([Junjie Zhao](https://orcid.org/0000-0002-9233-3683)) and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities) and [Minquan Gao](https://www.mqgao.com/)), whose names will be announced as they join.
 
 ## Questions
 For any inquiries regarding the course, please email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn).
